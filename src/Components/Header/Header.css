@@ -1,0 +1,82 @@
+header {
+  /* height:250px; */
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* backdrop-filter: blur(2px);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.29), rgba(0, 0, 0, 0.283)),
+    url(../../assets/BG2.png); */
+
+  /* background: rgba(255, 255, 255, 0);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+  /* backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px); */
+  /* border-radius: 10px; */
+  /* border: 1px solid rgba(255, 255, 255, 0.18); */
+  /* background: url("../../assets/BG2.png"); */
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-size: contain; */
+}
+.text-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+}
+.text-center p,
+.about p {
+  font-weight: 700;
+}
+.about p {
+  font-weight: 400;
+  font-family: sans-serif;
+}
+.about-1 {
+  display: flex;
+  justify-content: space-between;
+}
+/* .about {
+  background: url("../../assets/BG2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+.about-1 h4 {
+  display: flex;
+
+  align-items: center;
+}
+.about-1 img {
+  height: 11rem;
+}
+
+.animate-charcter {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  /* font-size: 190px; */
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
