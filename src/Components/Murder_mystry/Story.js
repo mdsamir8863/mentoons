@@ -11,15 +11,15 @@ const Story = () => {
         <h2>Murder mystry story</h2>
         <div className="flex1">
           <img src={murder3} alt="" />
-          <Button variant="outline-success">Success</Button>{" "}
+          <Button variant="outline-success">watch now</Button>{" "}
         </div>
         <div className="flex2">
           <img src={murder1} alt="" />
-          <Button variant="outline-success">Success</Button>{" "}
+          <Button variant="outline-success">watch now</Button>{" "}
         </div>
         <div className="flex3">
           <img src={murder2} alt="" />
-          <Button variant="outline-success">Success</Button>{" "}
+          <Button variant="outline-success">watch now</Button>{" "}
         </div>
       </div>
     </div>
