@@ -12,7 +12,7 @@ const Workshop = () => {
     <div>
       <div className="workshop">
         <img src={Workshop_tittle_img} alt="" className="w-tittle-img" />
-        <h2>Developed by psychologists.</h2>
+        <h2>Developed by <span>psychologists</span> </h2>
         <p>
           Based on the “9 Human Intelligence Theory", our workshops are designed
           and delivered by psychologists. Our fun sessions will help children

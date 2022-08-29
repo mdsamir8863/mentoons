@@ -1,0 +1,19 @@
+.pshycho {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rupashi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 1rem 0;
+}
+.rupashi img {
+  float: left;
+  width: 9rem;
+}

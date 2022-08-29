@@ -15,8 +15,8 @@ const Header = () => {
             <div className="row">
               <div className="col-md-12 text-center">
                 <img src={main_logo} alt="" className="main_logo" />
-                {/* <h3 className="animate-charcter">MENTOONS</h3>
-              <p className="animate-charcter">mentoring through cartoon </p> */}
+                {/* <h3 className="animate-charcter">MENTOONS</h3> */}
+              <p className="animate-charcter">mentoring through cartoons </p>
                 <Button variant="primary">Sign Up</Button>{" "}
               </div>
             </div>

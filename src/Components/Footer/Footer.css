@@ -1,0 +1,17 @@
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 2.5rem 0;
+}
+.icon {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+svg {
+  height: 3rem;
+}

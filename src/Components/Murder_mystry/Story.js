@@ -8,7 +8,7 @@ const Story = () => {
   return (
     <div>
       <div className="main-flex">
-        <h2>Murder mystry story</h2>
+        <span>Murder mystry stories</span>
         <div className="flex1">
           <img src={murder3} alt="" />
           <Button variant="outline-success">watch now</Button>{" "}
