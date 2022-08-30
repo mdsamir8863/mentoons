@@ -1,12 +1,16 @@
 body {
   position: relative;
-  background-image: url(./assets/bg100.jpg);
+  /* background-image: url(./assets/BG.MENTOONS.PNG); */
   background-size: contain;
-  /* background-size: cover; */
+  background-size: cover;
   background-attachment: fixed;
+  background: #16222A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
   /* filter: blur(8px); */
   /* -webkit-filter: blur(8px); */
-  backdrop-filter: blur(7px);
+  /* backdrop-filter: blur(7px); */
 
   /* -webkit-animation-name: slideInDown;
   animation-name: slideInDown;
@@ -18,15 +22,15 @@ body {
   scroll-behavior: smooth;
   animation-timing-function: ease-in-out;
 
-  -webkit-animation-name: slideInLeft;
+  /* -webkit-animation-name: slideInLeft;
   animation-name: slideInLeft;
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
   -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+  animation-fill-mode: both; */
 }
 * {
-  color: #00a7f8;
+  color: #ffffff;
   font-weight: bold;
   scroll-behavior: smooth;
   animation-timing-function: ease-in-out;

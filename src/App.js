@@ -12,8 +12,10 @@ import ShortFilms from "./Components/Short_films/Film"
 import Phyco from "./Components/Phycologist_page/Phyco"
 import Team from "./Components/Team/Team"
 import Footer from "./Components/Footer/Footer"
+import Login from "./Components/FORM/Login";
 const App = () => {
   return (
+    
     <div className="all_file">
       {/* <Navbar2 /> */}
       <Header />
@@ -25,6 +27,7 @@ const App = () => {
       <Phyco/>
       <Team/>
       <Footer/>
+      <Login/>
      
     </div>
   );

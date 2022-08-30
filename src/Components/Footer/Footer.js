@@ -26,6 +26,13 @@ const Footer = () => {
         >
           TOONLAND
         </a>
+        <a
+          href="https://www.propelling stories.in/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          PROPELLING STORIES
+        </a>
       </div>
 
       <div className="icon">
